@@ -1,0 +1,23 @@
+﻿@model School.Student
+
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Edit</title>
+</head>
+<body>
+    <div> 
+        <h2>Please edit this student</h2>
+        @using (Html.BeginForm())
+        {
+            @Html.HiddenFor(m=>m.Id)
+            @Html.LabelFor(m => m.Name)@Html.TextBoxFor(m => m.Name)
+            <input type="submit"  value="Update" />
+        }
+    </div>
+</body>
+</html>

@@ -1,0 +1,26 @@
+﻿@model School.Teacher
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Delete</title>
+</head>
+<body>
+    <div>
+        <h2>Please be cautious to your deletion! </h2>
+    @using (Html.BeginForm())
+    {
+        @Html.HiddenFor(m => m.Id)
+        @Html.LabelFor(m => m.Name) @Html.TextBoxFor(m => m.Name)
+        <input type="submit" value="Delete" />
+
+    }
+</div>
+</body>
+</html>

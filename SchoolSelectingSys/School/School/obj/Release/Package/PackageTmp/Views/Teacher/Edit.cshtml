@@ -1,0 +1,23 @@
+﻿
+@model School.Teacher
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Edit</title>
+</head>
+<body>
+    <div> 
+        @using (Html.BeginForm())
+        {
+            @Html.HiddenFor(m => m.Id);
+            @Html.LabelFor(m=>m.Name)@Html.TextBoxFor(m => m.Name)<br/>
+            //<span>Todo: Teacher Dropdown List here</span>
+            <input type="submit"  value="Update" />
+
+        }
+    </div>
+</body>
+</html>

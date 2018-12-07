@@ -1,0 +1,35 @@
+﻿@model School.Teacher
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Detail</title>
+</head>
+<body>
+    <div>
+        <h3>Details of Teacher#@Model.Id</h3>
+        @using (Html.BeginForm())
+        {
+            @Html.LabelFor(m => m.Id)@Html.TextBoxFor(m => m.Id)<br />
+            @Html.LabelFor(m => m.Name)@Html.TextBoxFor(m => m.Name)<br />
+
+        }
+        <table border="1">
+            <tr>
+                <th>ID</th>
+                <th>StudentName</th>
+            </tr>
+            @foreach (var student in this.Model.Students)
+            {
+                <tr>
+                    <td>@student.Id</td>
+                    <td>@student.Name</td>
+                </tr>
+            }
+        </table>
+    </div>
+</body>
+</html>

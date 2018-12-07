@@ -1,0 +1,10 @@
+C:\Users\Labixiaoxin\Documents\Visual Studio 2015\Projects\PetProject\SchoolDataPopulator\SchoolDataPopulator\bin\Debug\SchoolDataPopulator.exe.config
+C:\Users\Labixiaoxin\Documents\Visual Studio 2015\Projects\PetProject\SchoolDataPopulator\SchoolDataPopulator\bin\Debug\SchoolDataPopulator.exe
+C:\Users\Labixiaoxin\Documents\Visual Studio 2015\Projects\PetProject\SchoolDataPopulator\SchoolDataPopulator\bin\Debug\SchoolDataPopulator.pdb
+C:\Users\Labixiaoxin\Documents\Visual Studio 2015\Projects\PetProject\SchoolDataPopulator\SchoolDataPopulator\bin\Debug\EntityFramework.dll
+C:\Users\Labixiaoxin\Documents\Visual Studio 2015\Projects\PetProject\SchoolDataPopulator\SchoolDataPopulator\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Labixiaoxin\Documents\Visual Studio 2015\Projects\PetProject\SchoolDataPopulator\SchoolDataPopulator\bin\Debug\EntityFramework.xml
+C:\Users\Labixiaoxin\Documents\Visual Studio 2015\Projects\PetProject\SchoolDataPopulator\SchoolDataPopulator\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Labixiaoxin\Documents\Visual Studio 2015\Projects\PetProject\SchoolDataPopulator\SchoolDataPopulator\obj\Debug\SchoolDataPopulator.csprojResolveAssemblyReference.cache
+C:\Users\Labixiaoxin\Documents\Visual Studio 2015\Projects\PetProject\SchoolDataPopulator\SchoolDataPopulator\obj\Debug\SchoolDataPopulator.exe
+C:\Users\Labixiaoxin\Documents\Visual Studio 2015\Projects\PetProject\SchoolDataPopulator\SchoolDataPopulator\obj\Debug\SchoolDataPopulator.pdb

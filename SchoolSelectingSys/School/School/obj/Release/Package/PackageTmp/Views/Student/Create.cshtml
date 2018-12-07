@@ -1,0 +1,21 @@
+﻿
+@model School.Student
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Create</title>
+</head>
+<body>
+    <div> 
+        <h2>Create a new student</h2>
+        @using (Html.BeginForm())
+        {
+            @Html.LabelFor(m=>m.Name)@Html.TextBoxFor(m=>m.Name)
+        
+        }
+    </div>
+</body>
+</html>

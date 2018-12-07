@@ -1,0 +1,22 @@
+﻿@model School.Student
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Detail</title>
+</head>
+<body>
+    <div> 
+        @using (Html.BeginForm())
+        {
+            @Html.LabelFor(m => m.Id) @Html.TextBoxFor(m => m.Id)<br/>
+            @Html.LabelFor(m => m.Name) @Html.TextBoxFor(m => m.Name)<br/>
+            @Html.LabelFor(m => m.TeacherId) @Html.TextBoxFor(m => m.TeacherId)<br/>
+            
+        }
+    </div>
+</body>
+</html>

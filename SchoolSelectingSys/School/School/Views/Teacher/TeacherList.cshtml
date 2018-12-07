@@ -1,0 +1,38 @@
+﻿@model List<School.Teacher>
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>TeacherList</title>
+</head>
+<body>
+    <div>
+        <h2>All teachers are here</h2>
+        <table border="1">
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Edit</th>
+                <th>Delete</th>
+                <th>Detail</th>
+            </tr>
+            @foreach (var teacher in this.Model)
+            {
+                <tr>
+                    <td>@teacher.Id</td>
+                    <td>@teacher.Name</td>
+                    <td>@Html.ActionLink("Edit", "Edit", new { id = teacher.Id })
+                    <td>@Html.ActionLink("Delete", "Delete",new { id=teacher.Id }) </td>
+                    <td>@Html.ActionLink("Detail", "Detail", new { id=teacher.Id})</td>
+                </tr>
+
+            }
+            
+        </table>
+        @Html.ActionLink("Go back","Index","Teacher")
+    </div>
+</body>
+</html>
