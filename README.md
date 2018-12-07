@@ -36,12 +36,6 @@ at this time....
 * HTML5
 * BootStrap
 
-## Team
-大海
-云淡风轻
-婴宁
-蜡笔小新
-
 ## License
 蜡笔小新@WASPEC; Jianghupiao@ WASPEC
 ![codepiao](https://user-images.githubusercontent.com/39571148/49629268-4ca04e00-f9ae-11e8-9953-14460c9cfd10.jpg)
